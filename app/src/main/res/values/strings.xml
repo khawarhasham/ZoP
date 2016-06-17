@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">ZoP</string>
+    <string name="contact_info" translatable="false">
+        Hybrid Reality and Culture,
+        \nCentre for Moving Image Research group,
+        \n
+        \nUniversity of the West of England,
+        \nPostcode BS16 1QY
+        \nFranchy campus, Bristol
+        \nUnited Kingdom
+        \n
+        \nIn cooperation with Aalto University, Finland.
+    </string>
+    <!--
+    <string name="contact_info" translatable="false">
+        Learning Environments research group,
+        \nAalto University School of Arts, Design and Architecture
+        \n
+        \nAalto University
+        \nSchool of Arts, Design and Architecture
+        \nPO Box 31000
+        \nFI-00076 AALTO
+        \nFINLAND
+    </string> -->
+
+    <string name="my_videos">All videos</string>
+    <string name="record">Record new video</string>
+    <string name="read_qr_code">QR search</string>
+    <string name="title_activity_information">Video information</string>
+    <string name="genre_selection_title">What kind of video is this?</string>
+    <string name="delete">Delete</string>
+    <string name="discussion">Discussion</string>
+    <string name="upload">Upload</string>
+    <string name="qr_to_video">Add QR code</string>
+    <string name="view_video_info">Details</string>
+    <string name="deletion_title">Video deletion</string>
+    <string name="deletion_question">Delete the selected videos and their annotations?</string>
+    <string name="storage_error">Could not access video storage.</string>
+    <string name="video_find_error">Could not find the video.</string>
+
+    <string name="login">Log in</string>
+    <string name="logout">Log out</string>
+    <string name="not_loggedin_nag_title">Not logged in</string>
+    <string name="video_no_location">No location info</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_text">Edit text</string>
+    <string name="video_share">Share</string>
+    <string name="not_loggedin_share_nag">You must log in before sharing videos.</string>
+    <string name="login_with_another">Log in with another account</string>
+
+    <string name="semanticvideo_title">Title</string>
+    <string name="semanticvideo_creator">Creator</string>
+    <string name="semanticvideo_qrcode">QR code</string>
+    <string name="semanticvideo_genre">Genre</string>
+    <string name="semanticvideo_uploaded">Uploaded</string>
+    <string name="semanticvideo_unknown_creator">Unknown creator</string>
+    <string name="semanticvideo_unknown_location">Unknown location</string>
+    <string name="semanticvideo_no_qr">No QR code read</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Search for videos</string>
+
+    <string name="video_no_permissions">Could not take video due to permissions</string>
+    <string name="log_in_no_permissions">Could not log in due to permissions</string>
+    <string name="browse_no_permissions">Could not show videos due to permissions</string>
+    <string name="empty_results">No matching videos</string>
+    <string name="import_video">Import video</string>
+    <string name="user_profile">Profile</string>
+    <string name="video_author">Author</string>
+    <string name="author_is_unknown">Unknown</string>
+    <string name="code_added_to_videos">Code added to selected video(s).</string>
+    <string name="logged_in_as">Logged in as %s.</string>
+    <string name="connection_problem">Connection problem</string>
+    <string name="tethys_prefs">Tethys account</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="about">About</string>
+    <string name="about_maps">About Maps</string>
+    <string name="choose_account">Choose an account</string>
+    <string name="logged_out">Logged out.</string>
+    <string name="login_error">Could not log in: %s</string>
+    <string name="save">Save</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="feedback_topic">Type</string>
+    <string name="feedback_summary">Summary</string>
+    <string name="feedback_body">Message</string>
+    <string name="feedback_user">Full name</string>
+    <string name="feedback_email">Email</string>
+    <string name="feedback_send">Send</string>
+    <string name="feedback_sent">Thank you for your feedback.</string>
+    <string name="feedback_error">There was an error while sending your feedback. Please try again later.</string>
+
+    <string-array name="genre_ids" translatable="false">
+        <item>good_work</item>
+        <item>problem</item>
+        <item>site_overview</item>
+        <item>trick_of_trade</item>
+    </string-array>
+
+    <string-array name="genre_texts">
+        <item>Good work</item>
+        <item>Problem</item>
+        <item>Site overview</item>
+        <item>Trick of trade</item>
+    </string-array>
+
+    <string name="unknown_genre">Unknown genre</string>
+    <string name="unknown_title">Unknown title</string>
+
+    <plurals name="select_count">
+        <item quantity="one">%d item selected</item>
+        <item quantity="other">%d items selected</item>
+    </plurals>
+
+    <string name="annotation_hint">Describe this annotation</string>
+    <string name="comments">Comments</string>
+    <string name="select_genre">Select genre</string>
+    <string name="close">Close</string>
+    <string name="processing_video">Processing video…</string>
+    <string name="migration_notification">Ach so! is updating your videos…</string>
+    <string name="playback_error">A playback error occurred.</string>
+    <string name="upload_error">Uploading failed; please try again.</string>
+
+    <string name="share_preparing_toast">You will be notified when the videos are ready for sharing.</string>
+
+    <plurals name="share_preparing">
+        <item quantity="one">Preparing %d video for sharing…</item>
+        <item quantity="other">Preparing %d videos for sharing…</item>
+    </plurals>
+
+    <plurals name="share_ready">
+        <item quantity="one">%d video ready for sharing</item>
+        <item quantity="other">%d videos ready for sharing</item>
+    </plurals>
+
+    <string name="share_ready_subtitle">Tap to share</string>
+
+    <plurals name="share_failed">
+        <item quantity="one">%d video could not be shared</item>
+        <item quantity="other">%d videos could not be shared</item>
+    </plurals>
+
+    <string name="share_failed_subtitle">Tap to try again</string>
+
+    <string name="settings">Settings</string>
+    <string name="help_and_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="settings_playback">Playback</string>
+    <string name="settings_annotation_pause_title">Annotation speed</string>
+    <string name="settings_annotation_pause_summary">The speed at which annotations are shown</string>
+    <string name="settings_layers_box_summary">The URL to the Layers box</string>
+    <string name="settings_layers_box_title">Layers box address</string>
+    <string name="settings_analytics_summary">Sends anonymous statistics about your usage to the developers in order to improve the app.</string>
+    <string name="settings_analytics_title">Send analytics data</string>
+    <string name="manage_groups">Your groups</string>
+    <string name="select_invite_email">Select email address to invite</string>
+    <string name="contact_has_no_email">The selected contact has no email saved</string>
+    <string name="settings_public_box_title">Public upload</string>
+    <string name="settings_public_box_summary">Connect to a public shared Layers Box (this overrides the Layers Box URL setting)</string>
+    <string name="failed_to_change_setting">Failed to change setting</string>
+    <string name="only_public_layers_box_description">Only the public Layers Box is supported at the moment.</string>
+    <string name="warning">Warning</string>
+    <string name="public_layers_box_chosen_warning">Setting changed but still using public Layers Box, do you want to choose to use the private URL instead?</string>
+    <string name="go_to_settings">Go to settings</string>
+
+    <string-array name="settings_annotation_pause_duration">
+        <item name="1000">Fast</item>
+        <item name="2000">Normal</item>
+        <item name="4000">Slow</item>
+    </string-array>
+
+    <string-array translatable="false" name="settings_annotation_pause_duration_values">
+        <item name="1000">1000</item>
+        <item name="2000">2000</item>
+        <item name="4000">4000</item>
+    </string-array>
+
+</resources>

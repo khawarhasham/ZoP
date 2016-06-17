@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_videos">Kõik videod</string>
+    <string name="record">Salvesta uus video</string>
+    <string name="read_qr_code">Otsi QR koodi abil</string>
+    <string name="title_activity_information">Video info</string>
+    <string name="settings">Seaded</string>
+    <string name="genre_selection_title">Mis tüüpi videoga on tegemist?</string>
+    <string name="delete">Kustuta</string>
+    <string name="upload">Üleslaadimine</string>
+    <string name="qr_to_video">Lisa QR kood</string>
+    <string name="view_video_info">Näita lisainfot</string>
+    <string name="deletion_title">Video kustutamine</string>
+    <string name="deletion_question">Kustuta valitud videod ja nende annotatsioonid?</string>
+    <string name="storage_error">Ei pääsenud videote hoidlale ligi.</string>
+
+    <string name="login">Logi sisse</string>
+    <string name="logout">Välju</string>
+    <string name="not_loggedin_nag_title">Pole sisse loginud</string>
+    <string name="video_no_location">Asukohainfo puudub</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Katkesta</string>
+    <string name="edit_text">Muuda teksti</string>
+    <string name="video_share">Jaga</string>
+
+    <string name="semanticvideo_title">Pealkiri</string>
+    <string name="semanticvideo_creator">Looja</string>
+    <string name="semanticvideo_qrcode">QR kood</string>
+    <string name="semanticvideo_genre">Žanr</string>
+    <string name="semanticvideo_uploaded">Üleslaetud</string>
+    <string name="semanticvideo_unknown_creator">Tundmatu looja</string>
+    <string name="semanticvideo_unknown_location">Tundmatu asukoht</string>
+    <string name="semanticvideo_no_qr">Ei saanud QR koodi lugeda</string>
+
+    <string name="search">Otsing</string>
+    <string name="search_hint">Videote otsing</string>
+
+    <string name="empty_results">Pole sobivaid videosid</string>
+    <string name="import_video">Lisa video</string>
+    <string name="video_author">Looja</string>
+    <string name="author_is_unknown">Tundmatu</string>
+    <string name="code_added_to_videos">Kood lisatud valitud videotele.</string>
+    <string name="logged_in_as">Logisid sisse kasutajana %s.</string>
+    <string name="connection_problem">Ühenduse probleem</string>
+    <string name="tethys_prefs">Tethys konto</string>
+    <string name="yes">Jah</string>
+    <string name="no">Ei</string>
+    <string name="about">Info</string>
+    <string name="about_maps">Kaardiinfo</string>
+    <string name="choose_account">Vali konto</string>
+    <string name="logged_out">Välja logitud.</string>
+    <string name="login_error">Polnud võimalik sisse logida kasutajana: %s</string>
+    <string name="save">Salvesta</string>
+
+    <string name="feedback">Tagasiside</string>
+    <string name="feedback_topic">Liik</string>
+    <string name="feedback_summary">Lühikokkuvõte</string>
+    <string name="feedback_body">Sõnum</string>
+    <string name="feedback_user">Täisnimi</string>
+    <string name="feedback_email">E-post</string>
+    <string name="feedback_send">Saada</string>
+    <string name="feedback_sent">Täname tagasisde eest.</string>
+    <string name="feedback_error">Polnud võimalik sinu tagasisidet saata. Proovi hiljem uuesti.</string>
+
+    <string-array name="genre_texts">
+        <item>Tubli töö</item>
+        <item>Mure</item>
+        <item>Portaali ülevaade</item>
+        <item>Trick of trade</item>
+    </string-array>
+
+    <string name="unknown_genre">Tundmatu žanr</string>
+    <string name="unknown_title">Tundmatu pealkiri</string>
+
+    <plurals name="select_count">
+        <item quantity="one">%d kirje valitud</item>
+        <item quantity="other">%d kirjet valitud</item>
+    </plurals>
+
+    <string name="error_sharing">Mõningaid videosid polnud võimalik jagada.</string>
+    <string name="annotation_hint">Kirjeldage seda märkust</string>
+    <string name="comments">Kommentaatid</string>
+    <string name="select_genre">Vali žanr</string>
+    <string name="close">Sulge</string>
+    <string name="processing_video">Töötlen videot…</string>
+    <string name="migration_notification">Ach so! uuendab su videosid…</string>
+    <string name="playback_error">Video esitluse viga.</string>
+    <string name="upload_error">Üleslaadimne ebaõnnestus; proovi uuesti.</string>
+    <string name="settings_layers_box_summary">The URL to the Layers box</string>
+    <string name="settings_layers_box_title">Layers box address</string>
+
+    <string name="share_failed_subtitle">Vajuta, et uuesti proovida</string>
+    <string name="video_find_error">Videot ei leitud</string>
+    <string name="share_ready_subtitle">Vajuta, et jagada</string>
+    <string name="settings_annotation_pause_title">Annatatsiooni kiirus</string>
+    <string name="settings_analytics_title">Saada analüütika andmed</string>
+    <string name="failed_to_change_setting">Sätte muutmine ebaõnnestus</string>
+    <string name="settings_annotation_pause_duration">Kiire, Tavaline, Aeglane</string>
+    <string name="share_preparing_toast">Sind teavitatakse videote jagamisvalmidusest.</string>
+    <string name="settings_analytics_summary">Saadab arendajatele anonüümset kasutusstatistikat äppi parandamise eesmärgil.</string>
+    <string name="settings_public_box_title">Avalik üleslaadimine</string>
+    <string name="help_and_feedback">Abi ja Tagasiside</string>
+    <string name="public_layers_box_chosen_warning">Sätted muudetud, kuid kasutusel on ikka veel avalik Layers Box, kas te hoopis tahaks kasutada privaatset aadressi?</string>
+    <string name="settings_annotation_pause_summary">Annotatsioonide kuvamise kiirus</string>
+    <string name="settings_public_box_summary">Ühenda avalikku jagatud Layers Box-iga (see kirjutab Layers Box URL sättet üle)</string>
+    <string name="select_invite_email">Vali kutse saaja e-posti aadress</string>
+    <string name="only_public_layers_box_description">Hetkel on toetatud ainult avalik Layers Box.</string>
+    <string name="settings_playback">Mahamängimine</string>
+    <string name="manage_groups">Sinu grupid</string>
+    <string name="contact_has_no_email">Valitud kontaktil pole e-posti aadressi</string>
+    <string name="not_loggedin_share_nag">Videote jagamiseks on vaja sisse logida.</string>
+    <string name="warning">Hoiatus</string>
+
+
+
+</resources>

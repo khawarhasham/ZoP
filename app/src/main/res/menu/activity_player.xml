@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:id="@+id/action_upload"
+        android:icon="@drawable/ic_group_white_24dp"
+        android:title="@string/upload"
+        app:showAsAction="ifRoom|withText" />
+        -->
+
+    <item
+        android:id="@+id/action_view_video_info"
+        android:icon="@drawable/ic_info_white_24dp"
+        android:title="@string/view_video_info"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_discussion"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:title="@string/discussion"
+        app:showAsAction="never" />
+
+</menu>

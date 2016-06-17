@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:gravity="right">
+
+        <!-- TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Think over this (disc likes)"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/-->
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most Recent"
+            android:id="@+id/recentBtn"
+            android:layout_margin="3dp"
+            android:clickable="true"
+            android:gravity="right"
+            android:textColor="#151fad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most Popular"
+            android:id="@+id/popularBtn"
+            android:layout_margin="3dp"
+            android:clickable="true"
+            android:gravity="right"
+            android:textColor="#151fad" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/commentsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_below="@id/headerLayout"
+        android:paddingBottom="50dp"
+        android:layout_marginBottom="0dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/Gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <EditText
+            android:id="@+id/writeComment"
+            android:hint="Write a Comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:background="#00000000"
+
+            android:inputType="text"
+            android:gravity="top|left"
+            android:imeOptions="actionDone"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="0/140"
+            android:id="@+id/commentLength"
+            android:layout_height="30dp"
+            android:textSize="12dp"
+            android:layout_weight="0.1"
+            android:background="#4b9c30"
+            android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

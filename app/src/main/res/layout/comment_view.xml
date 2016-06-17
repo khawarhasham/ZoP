@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="author name"
+            android:id="@+id/cAuthor"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="6dp"
+            android:textColor="#499acc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="comment"
+            android:id="@+id/cContent"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="6dp"
+            android:textColor="#10640c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Likes"
+            android:id="@+id/cLikes"
+            android:padding="5dp"
+            android:textColor="#4360b0"
+            android:textSize="11sp"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/like_transparent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:id="@+id/likeBtn"
+            android:padding="5dp"
+            android:textColor="#4360b0"
+            android:textSize="11sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reply"
+            android:id="@+id/replyBtn"
+            android:padding="5dp"
+            android:textColor="#4360b0"
+            android:clickable="true"
+            android:textSize="11sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="comment time"
+            android:id="@+id/ctime"
+            android:padding="4dp"
+            android:textSize="11sp"
+            android:textColor="#bc2020" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/replyListView" />
+</LinearLayout>

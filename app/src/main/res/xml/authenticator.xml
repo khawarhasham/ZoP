@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="fi.aalto.legroup.achso.ll_oidc"
+    android:icon="@drawable/ic_launcher2"
+    android:label="@string/tethys_prefs"
+    android:smallIcon="@drawable/ic_launcher2" />

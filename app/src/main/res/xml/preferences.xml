@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    If you change keys in this file, you'll also need to change them in AppPreferences.java.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_playback">
+
+        <com.afollestad.materialdialogs.prefs.MaterialListPreference
+            android:defaultValue="2000"
+            android:entries="@array/settings_annotation_pause_duration"
+            android:entryValues="@array/settings_annotation_pause_duration_values"
+            android:key="ANNOTATION_PAUSE_DURATION"
+            android:summary="@string/settings_annotation_pause_summary"
+            android:title="@string/settings_annotation_pause_title" />
+
+        <android.preference.SwitchPreference
+            android:defaultValue="true"
+            android:key="USE_PUBLIC_LAYERS_BOX"
+            android:summary="@string/settings_public_box_summary"
+            android:title="@string/settings_public_box_title" />
+
+        <com.afollestad.materialdialogs.prefs.MaterialEditTextPreference
+            android:defaultValue="@string/layersBoxUrl"
+            android:inputType="textUri"
+            android:key="LAYERS_BOX_URL"
+            android:summary="@string/settings_layers_box_summary"
+            android:title="@string/settings_layers_box_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/help_and_feedback">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="ANALYTICS_OPT_IN"
+            android:summary="@string/settings_analytics_summary"
+            android:title="@string/settings_analytics_title" />
+
+        <!--
+            These are used by SettingsFragment but not by AppPreferences; they're just buttons.
+        -->
+        <Preference
+            android:key="BUTTON_FEEDBACK"
+            android:title="@string/feedback" />
+
+        <Preference
+            android:key="BUTTON_ABOUT"
+            android:title="@string/about" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

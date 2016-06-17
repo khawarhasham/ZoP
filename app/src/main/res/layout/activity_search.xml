@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fi.aalto.legroup.zop.browsing.SearchActivity">
+
+    <include layout="@layout/partial_toolbar_with_nav_button" />
+
+    <fragment
+        android:name="fi.aalto.legroup.zop.browsing.BrowserFragment"
+        android:id="@+id/fragment_search_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_browser" />
+
+</LinearLayout>
