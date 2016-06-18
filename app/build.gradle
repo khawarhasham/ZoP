@@ -1,13 +1,21 @@
 apply plugin: 'com.android.application'
 apply from: 'build-helpers.gradle'
 
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+
+// Initialize a new Properties() object called keystoreProperties.
+def keystoreProperties = new Properties()
+
+// Load your keystore.properties file into the keystoreProperties object.
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
 android {
     signingConfigs {
         zop {
-            keyAlias 'zopapp-release'
-            keyPassword 'z009Uwe'
-            storeFile file('/Volumes/STAFF-SAAD/Users/khawar/dev_area/learninglayers/app_release/zopapp-release-key.keystore')
-            storePassword 'z009Uwe'
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
         }
     }
     compileSdkVersion 23
