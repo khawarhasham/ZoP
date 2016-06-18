@@ -2,14 +2,14 @@ apply plugin: 'com.android.application'
 apply from: 'build-helpers.gradle'
 
 android {
-    /*signingConfigs {
+    signingConfigs {
         zop {
-            keyAlias 'KEY_NAME'
-            keyPassword 'KEY_PASS'
-            storeFile file('PATH TO keystore')
-            storePassword 'STORE_PASS'
+            keyAlias 'zopapp-release'
+            keyPassword 'z009Uwe'
+            storeFile file('/Volumes/STAFF-SAAD/Users/khawar/dev_area/learninglayers/app_release/zopapp-release-key.keystore')
+            storePassword 'z009Uwe'
         }
-    }*/
+    }
     compileSdkVersion 23
     buildToolsVersion '23.0.2'
     useLibrary 'org.apache.http.legacy'
