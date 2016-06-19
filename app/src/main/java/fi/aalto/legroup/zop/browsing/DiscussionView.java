@@ -47,11 +47,10 @@ import fi.aalto.legroup.zop.entities.CommentReply;
 import fi.aalto.legroup.zop.entities.Like;
 import fi.aalto.legroup.zop.entities.Video;
 import fi.aalto.legroup.zop.playback.PlayerActivity;
-import fi.aalto.legroup.zop.views.adapters.CommentAction;
-import fi.aalto.legroup.zop.views.adapters.DiscussionActionType;
+import fi.aalto.legroup.zop.sss.CommentAction;
+import fi.aalto.legroup.zop.sss.DiscussionActionType;
 import fi.aalto.legroup.zop.views.adapters.DiscussionAdapter;
-import fi.aalto.legroup.zop.views.adapters.SSSEventType;
-import fi.aalto.legroup.zop.views.adapters.SSSObject;
+import fi.aalto.legroup.zop.sss.SSSObject;
 //import fi.aalto.legroup.zop.views.adapters.SSSRequestWrapper;
 
 /**

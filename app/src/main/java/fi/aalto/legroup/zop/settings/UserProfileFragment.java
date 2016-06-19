@@ -1,6 +1,5 @@
 package fi.aalto.legroup.zop.settings;
 
-import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -12,7 +11,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,9 +22,9 @@ import java.util.List;
 
 import fi.aalto.legroup.zop.R;
 import fi.aalto.legroup.zop.app.App;
-import fi.aalto.legroup.zop.views.adapters.SSSEvent;
-import fi.aalto.legroup.zop.views.adapters.SSSEventType;
-import fi.aalto.legroup.zop.views.adapters.TagAction;
+import fi.aalto.legroup.zop.sss.SSSEvent;
+import fi.aalto.legroup.zop.sss.SSSEventType;
+import fi.aalto.legroup.zop.sss.TagAction;
 
 
 public final class UserProfileFragment extends Fragment implements SSSEvent {

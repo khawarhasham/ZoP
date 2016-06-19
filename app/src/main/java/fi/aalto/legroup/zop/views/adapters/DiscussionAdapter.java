@@ -1,8 +1,6 @@
 package fi.aalto.legroup.zop.views.adapters;
 
 import android.content.Context;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,6 +22,8 @@ import fi.aalto.legroup.zop.app.App;
 import fi.aalto.legroup.zop.browsing.DiscussionView;
 import fi.aalto.legroup.zop.entities.Comment;
 import fi.aalto.legroup.zop.entities.CommentReply;
+import fi.aalto.legroup.zop.sss.CommentAction;
+import fi.aalto.legroup.zop.sss.DiscussionActionType;
 //import java.util.zip.Inflater;
 
 /**
