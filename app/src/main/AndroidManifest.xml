@@ -164,6 +164,7 @@
 
         <service android:name="fi.aalto.legroup.zop.storage.local.ExportService" />
         <service android:name="fi.aalto.legroup.zop.storage.remote.UploadService" />
+        <service android:name="fi.aalto.legroup.zop.storage.remote.ZoPService" />
         <service android:name="fi.aalto.legroup.zop.storage.remote.SyncService" />
         <service android:name="fi.aalto.legroup.zop.authoring.VideoCreatorService" />
 
